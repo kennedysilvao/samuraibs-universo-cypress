@@ -1,0 +1,23 @@
+{
+  "success": {
+    "name": "Kennedy Silva",
+    "email": "kennedy@gmail.com",
+    "password": "pwd123"
+  },
+  "email_dup": {
+    "name": "Kelvin Paz",
+    "email": "kelvin@gmail.com",
+    "password": "pwd123",
+    "is_provider": true
+  },
+  "email_inv": {
+    "name": "Silvana Paz",
+    "email": "silvana.gmail.com",
+    "password": "pwd123"
+  },
+  "short_password": {
+    "name": "Joséfino Friday",
+    "email": "josefino@gmail.com",
+    "password": null
+  }
+}
