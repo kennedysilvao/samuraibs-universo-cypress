@@ -9,7 +9,7 @@
 - git clone https://github.com/kennedysilvao/samuraibs-universo-cypress.git
 - no terminal, dentro da pasta, digite npm install para baixar todas as dependências
 - abra com vscode
-- na pasta cypress/tests vão estar todas as implementações dos testes
+- na pasta cypress vão estar todas as implementações dos testes
 
 ## Para rodar os testes
 - Caso queira abrir a interface do cypress e rodar os testes, digite no terminal dentro da pasta do projeto (npx cypress open)
