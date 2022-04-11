@@ -1,13 +1,15 @@
 {
-    "baseUrl": "http://localhost:3000",
-    "apiServer": "http://localhost:3333",
+    "baseUrl": "https://samuraibs-web-kennedy.herokuapp.com",
+    "apiServer": "https://samuraibs-api-kennedy.herokuapp.com",
     "viewportWidth": 1440,
     "viewportHeight": 900,
+    "defaultCommandTimeout": 30000,
     "dbConfig": {
         "host": "jelani.db.elephantsql.com",
         "user": "zvbqdrth",
         "password": "qFi45T3ZaSwXaQL7o3OmDEVH0v82Ec-9",
         "database": "zvbqdrth",
         "port": 5432
-    }
+    },
+    "projectId": "6j55cj"
 }

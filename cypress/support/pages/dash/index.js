@@ -3,7 +3,7 @@ import { el } from './elements';
 class DashPage {
 
     calendarShouldBeVisible() {
-        cy.get(el.calendar, { timeout: 7000 })
+        cy.get(el.calendar)
             .should('be.visible');
     }
 
@@ -61,7 +61,7 @@ class DashPage {
         } else {
             cy.log('hoje não')
         }
-        const target = new RegExp('^' + appointmentDate + '$', 'g');
+        const target = new RegExp('^' + appointmentDate.getDate() + '$', 'g');
         cy.contains(el.day, target)
             .click({ force: true });
     }
